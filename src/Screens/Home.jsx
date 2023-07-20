@@ -5,7 +5,7 @@ import categories from '../Data/categories.json'
 import CategoryItem from '../Components/CategoryItem'
 
 const Home = ({
-  setCategorySelected
+  navigation
 }) => {
   return (
     <View style={styles.container}>
@@ -23,7 +23,6 @@ export default Home
 
 const styles = StyleSheet.create({
     container: {
-        height: '90%',
         backgroundColor: colors.Sea,
         alignItems: 'center'
     }
